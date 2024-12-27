@@ -6,7 +6,67 @@
 
 main{
     box-sizing: border-box;
-    border: solid;
     margin: 80px auto;
     width: 1120px;
 }
+
+.about p {
+    margin-bottom: 8px;
+}
+
+.about h1 {
+    margin-bottom: 40px;
+}
+
+.about img + p {
+    text-align: center;
+    margin: 24px auto 44px;
+    padding: 4px;
+}
+
+.divider-1 {
+    border: solid #d9d9d9 1px;
+}
+
+.location {
+    padding-top: 64px;
+    
+}
+
+.location img{
+    margin-top: 64px;
+    margin-bottom: 20px;
+}
+
+.location h2 {
+    margin: 2px auto 4px;
+}
+
+ol img {
+    margin-top: 48px;
+}
+
+ol li h2{
+    margin-bottom: 4px;
+}
+
+ol li{
+    margin-left: 20px;
+}
+
+
+
+.divider-2 {
+    border: solid #d9d9d9 1px;
+    margin: 40px 0 40px;
+}
+
+section + p {
+    text-align: center;
+}
+
+footer {
+    margin: 65px;
+    text-align: center;
+}
+
